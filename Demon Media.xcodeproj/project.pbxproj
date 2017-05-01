@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C5D1F4B09A151A71589D48 /* Pods_Demon_MediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62964EDC9B94CE394A11D5 /* Pods_Demon_MediaTests.framework */; };
+		087E599D077E3BB412F1D02C /* Pods_Demon_MediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BD4E6B71281AFA1AC412A5 /* Pods_Demon_MediaUITests.framework */; };
+		3709D58E1EB4AF980078F046 /* PushLeftSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3709D58D1EB4AF980078F046 /* PushLeftSegue.swift */; };
 		37389E941EB2359A003A2DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37389E931EB2359A003A2DAE /* AppDelegate.swift */; };
 		37389E961EB2359A003A2DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37389E951EB2359A003A2DAE /* ViewController.swift */; };
-		37389E991EB2359A003A2DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37389E971EB2359A003A2DAE /* Main.storyboard */; };
 		37389E9B1EB2359A003A2DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37389E9A1EB2359A003A2DAE /* Assets.xcassets */; };
 		37389E9E1EB2359A003A2DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37389E9C1EB2359A003A2DAE /* LaunchScreen.storyboard */; };
 		37389EA91EB2359A003A2DAE /* Demon_MediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37389EA81EB2359A003A2DAE /* Demon_MediaTests.swift */; };
 		37389EB41EB2359A003A2DAE /* Demon_MediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37389EB31EB2359A003A2DAE /* Demon_MediaUITests.swift */; };
+		37389ECB1EB27E4F003A2DAE /* FiraSans-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37389EC81EB27E4F003A2DAE /* FiraSans-Book.otf */; };
+		37389ECC1EB27E4F003A2DAE /* FiraSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37389EC91EB27E4F003A2DAE /* FiraSans-Regular.otf */; };
+		37389ECD1EB27E4F003A2DAE /* FiraSans-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37389ECA1EB27E4F003A2DAE /* FiraSans-UltraLight.otf */; };
+		37389ED31EB2821B003A2DAE /* newsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37389ED21EB2821B003A2DAE /* newsCell.swift */; };
+		3757DB001EB7568C00902BDA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3757DAFF1EB7568C00902BDA /* Post.swift */; };
+		3784C9731EB5EAF100B5EAEC /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784C9721EB5EAF100B5EAEC /* SingleViewController.swift */; };
+		3784C9751EB5ED1500B5EAEC /* PushRightSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3784C9741EB5ED1500B5EAEC /* PushRightSegue.swift */; };
+		3797ED0F1EB746FE00BAD509 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797ED0E1EB746FE00BAD509 /* Constants.swift */; };
+		37A063EF1EB3D96800F6B2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A063ED1EB3D96800F6B2FB /* Main.storyboard */; };
+		CA9F221C4C798598716FC816 /* Pods_Demon_Media.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F3C91BB88D30ABB17F3714 /* Pods_Demon_Media.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3E108C61D6451B28B8C252 /* Pods-Demon MediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demon MediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demon MediaUITests/Pods-Demon MediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36E3B4DB458F5A69D79BE601 /* Pods-Demon MediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demon MediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demon MediaTests/Pods-Demon MediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3709D58D1EB4AF980078F046 /* PushLeftSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushLeftSegue.swift; sourceTree = "<group>"; };
 		37389E901EB2359A003A2DAE /* Demon Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demon Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37389E931EB2359A003A2DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37389E951EB2359A003A2DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37389E981EB2359A003A2DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37389E9A1EB2359A003A2DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37389E9D1EB2359A003A2DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37389E9F1EB2359A003A2DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,22 @@
 		37389EAF1EB2359A003A2DAE /* Demon MediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demon MediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37389EB31EB2359A003A2DAE /* Demon_MediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demon_MediaUITests.swift; sourceTree = "<group>"; };
 		37389EB51EB2359A003A2DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37389EC81EB27E4F003A2DAE /* FiraSans-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Book.otf"; sourceTree = "<group>"; };
+		37389EC91EB27E4F003A2DAE /* FiraSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.otf"; sourceTree = "<group>"; };
+		37389ECA1EB27E4F003A2DAE /* FiraSans-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-UltraLight.otf"; sourceTree = "<group>"; };
+		37389ED21EB2821B003A2DAE /* newsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newsCell.swift; sourceTree = "<group>"; };
+		3757DAFF1EB7568C00902BDA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3784C9721EB5EAF100B5EAEC /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		3784C9741EB5ED1500B5EAEC /* PushRightSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushRightSegue.swift; sourceTree = "<group>"; };
+		3797ED0E1EB746FE00BAD509 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		37A063EE1EB3D96800F6B2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58EA045F081CE32DDE890DC0 /* Pods-Demon MediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demon MediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demon MediaUITests/Pods-Demon MediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74EFABE0B25433ACF607EA31 /* Pods-Demon Media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demon Media.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demon Media/Pods-Demon Media.debug.xcconfig"; sourceTree = "<group>"; };
+		77BD4E6B71281AFA1AC412A5 /* Pods_Demon_MediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demon_MediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90789029ED73A0E06EA7E5A9 /* Pods-Demon Media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demon Media.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demon Media/Pods-Demon Media.release.xcconfig"; sourceTree = "<group>"; };
+		A8F3C91BB88D30ABB17F3714 /* Pods_Demon_Media.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demon_Media.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E190FC12278310D4EFC033E8 /* Pods-Demon MediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demon MediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demon MediaTests/Pods-Demon MediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF62964EDC9B94CE394A11D5 /* Pods_Demon_MediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demon_MediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9F221C4C798598716FC816 /* Pods_Demon_Media.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C5D1F4B09A151A71589D48 /* Pods_Demon_MediaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +100,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087E599D077E3BB412F1D02C /* Pods_Demon_MediaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00617C3DFFAF69A0D2746B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F3C91BB88D30ABB17F3714 /* Pods_Demon_Media.framework */,
+				EF62964EDC9B94CE394A11D5 /* Pods_Demon_MediaTests.framework */,
+				77BD4E6B71281AFA1AC412A5 /* Pods_Demon_MediaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37389E871EB2359A003A2DAE = {
 			isa = PBXGroup;
 			children = (
-				37389E921EB2359A003A2DAE /* Demon Media */,
+				3784C9701EB5EAB500B5EAEC /* Main App */,
 				37389EA71EB2359A003A2DAE /* Demon MediaTests */,
 				37389EB21EB2359A003A2DAE /* Demon MediaUITests */,
 				37389E911EB2359A003A2DAE /* Products */,
+				D0CEE8AE685C8335D33641B0 /* Pods */,
+				00617C3DFFAF69A0D2746B98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +142,13 @@
 		37389E921EB2359A003A2DAE /* Demon Media */ = {
 			isa = PBXGroup;
 			children = (
+				3784C9711EB5EAC800B5EAEC /* Util */,
+				37389EC71EB27E2E003A2DAE /* Resources */,
+				37389EC41EB239EC003A2DAE /* Models */,
+				37389EC31EB239E3003A2DAE /* Controllers */,
+				37389EC21EB239AD003A2DAE /* Views */,
 				37389E931EB2359A003A2DAE /* AppDelegate.swift */,
-				37389E951EB2359A003A2DAE /* ViewController.swift */,
-				37389E971EB2359A003A2DAE /* Main.storyboard */,
+				37A063ED1EB3D96800F6B2FB /* Main.storyboard */,
 				37389E9A1EB2359A003A2DAE /* Assets.xcassets */,
 				37389E9C1EB2359A003A2DAE /* LaunchScreen.storyboard */,
 				37389E9F1EB2359A003A2DAE /* Info.plist */,
@@ -125,6 +174,72 @@
 			path = "Demon MediaUITests";
 			sourceTree = "<group>";
 		};
+		37389EC21EB239AD003A2DAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37389ED21EB2821B003A2DAE /* newsCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		37389EC31EB239E3003A2DAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37389E951EB2359A003A2DAE /* ViewController.swift */,
+				3784C9721EB5EAF100B5EAEC /* SingleViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		37389EC41EB239EC003A2DAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3757DAFF1EB7568C00902BDA /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37389EC71EB27E2E003A2DAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37389EC81EB27E4F003A2DAE /* FiraSans-Book.otf */,
+				37389EC91EB27E4F003A2DAE /* FiraSans-Regular.otf */,
+				37389ECA1EB27E4F003A2DAE /* FiraSans-UltraLight.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3784C9701EB5EAB500B5EAEC /* Main App */ = {
+			isa = PBXGroup;
+			children = (
+				37389E921EB2359A003A2DAE /* Demon Media */,
+			);
+			name = "Main App";
+			sourceTree = "<group>";
+		};
+		3784C9711EB5EAC800B5EAEC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3709D58D1EB4AF980078F046 /* PushLeftSegue.swift */,
+				3784C9741EB5ED1500B5EAEC /* PushRightSegue.swift */,
+				3797ED0E1EB746FE00BAD509 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D0CEE8AE685C8335D33641B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74EFABE0B25433ACF607EA31 /* Pods-Demon Media.debug.xcconfig */,
+				90789029ED73A0E06EA7E5A9 /* Pods-Demon Media.release.xcconfig */,
+				36E3B4DB458F5A69D79BE601 /* Pods-Demon MediaTests.debug.xcconfig */,
+				E190FC12278310D4EFC033E8 /* Pods-Demon MediaTests.release.xcconfig */,
+				58EA045F081CE32DDE890DC0 /* Pods-Demon MediaUITests.debug.xcconfig */,
+				2D3E108C61D6451B28B8C252 /* Pods-Demon MediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37389EB81EB2359A003A2DAE /* Build configuration list for PBXNativeTarget "Demon Media" */;
 			buildPhases = (
+				A70063868B90E3BB722A941E /* [CP] Check Pods Manifest.lock */,
 				37389E8C1EB2359A003A2DAE /* Sources */,
 				37389E8D1EB2359A003A2DAE /* Frameworks */,
 				37389E8E1EB2359A003A2DAE /* Resources */,
+				21117A2C8BADDBD2A07407D0 /* [CP] Embed Pods Frameworks */,
+				1C55CDA39EC2F78ED33BDA3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37389EBB1EB2359A003A2DAE /* Build configuration list for PBXNativeTarget "Demon MediaTests" */;
 			buildPhases = (
+				B674105299AFCA9CE18E5C25 /* [CP] Check Pods Manifest.lock */,
 				37389EA01EB2359A003A2DAE /* Sources */,
 				37389EA11EB2359A003A2DAE /* Frameworks */,
 				37389EA21EB2359A003A2DAE /* Resources */,
+				42464577305CA6856F6AF6A7 /* [CP] Embed Pods Frameworks */,
+				CA56C42382C092053D095903 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37389EBE1EB2359A003A2DAE /* Build configuration list for PBXNativeTarget "Demon MediaUITests" */;
 			buildPhases = (
+				B6363BE1E1970467C0F98D78 /* [CP] Check Pods Manifest.lock */,
 				37389EAB1EB2359A003A2DAE /* Sources */,
 				37389EAC1EB2359A003A2DAE /* Frameworks */,
 				37389EAD1EB2359A003A2DAE /* Resources */,
+				933A804157672A91BB98973C /* [CP] Embed Pods Frameworks */,
+				1D687F5A31E247B5B995FA65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +317,7 @@
 				TargetAttributes = {
 					37389E8F1EB2359A003A2DAE = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JA73XNX8GV;
 						ProvisioningStyle = Automatic;
 					};
 					37389EA31EB2359A003A2DAE = {
@@ -232,9 +357,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37389ECD1EB27E4F003A2DAE /* FiraSans-UltraLight.otf in Resources */,
 				37389E9E1EB2359A003A2DAE /* LaunchScreen.storyboard in Resources */,
+				37389ECC1EB27E4F003A2DAE /* FiraSans-Regular.otf in Resources */,
+				37A063EF1EB3D96800F6B2FB /* Main.storyboard in Resources */,
 				37389E9B1EB2359A003A2DAE /* Assets.xcassets in Resources */,
-				37389E991EB2359A003A2DAE /* Main.storyboard in Resources */,
+				37389ECB1EB27E4F003A2DAE /* FiraSans-Book.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +382,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C55CDA39EC2F78ED33BDA3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demon Media/Pods-Demon Media-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D687F5A31E247B5B995FA65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demon MediaUITests/Pods-Demon MediaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21117A2C8BADDBD2A07407D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demon Media/Pods-Demon Media-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42464577305CA6856F6AF6A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demon MediaTests/Pods-Demon MediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		933A804157672A91BB98973C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demon MediaUITests/Pods-Demon MediaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70063868B90E3BB722A941E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6363BE1E1970467C0F98D78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B674105299AFCA9CE18E5C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA56C42382C092053D095903 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demon MediaTests/Pods-Demon MediaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37389E8C1EB2359A003A2DAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3784C9731EB5EAF100B5EAEC /* SingleViewController.swift in Sources */,
 				37389E961EB2359A003A2DAE /* ViewController.swift in Sources */,
+				37389ED31EB2821B003A2DAE /* newsCell.swift in Sources */,
+				3757DB001EB7568C00902BDA /* Post.swift in Sources */,
 				37389E941EB2359A003A2DAE /* AppDelegate.swift in Sources */,
+				3797ED0F1EB746FE00BAD509 /* Constants.swift in Sources */,
+				3784C9751EB5ED1500B5EAEC /* PushRightSegue.swift in Sources */,
+				3709D58E1EB4AF980078F046 /* PushLeftSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +568,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37389E971EB2359A003A2DAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37389E981EB2359A003A2DAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37389E9C1EB2359A003A2DAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				37389E9D1EB2359A003A2DAE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		37A063ED1EB3D96800F6B2FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A063EE1EB3D96800F6B2FB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,8 +682,10 @@
 		};
 		37389EB91EB2359A003A2DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EFABE0B25433ACF607EA31 /* Pods-Demon Media.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JA73XNX8GV;
 				INFOPLIST_FILE = "Demon Media/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iwildman1.Demon-Media";
@@ -422,8 +696,10 @@
 		};
 		37389EBA1EB2359A003A2DAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90789029ED73A0E06EA7E5A9 /* Pods-Demon Media.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JA73XNX8GV;
 				INFOPLIST_FILE = "Demon Media/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iwildman1.Demon-Media";
@@ -434,6 +710,7 @@
 		};
 		37389EBC1EB2359A003A2DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E3B4DB458F5A69D79BE601 /* Pods-Demon MediaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +725,7 @@
 		};
 		37389EBD1EB2359A003A2DAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E190FC12278310D4EFC033E8 /* Pods-Demon MediaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +740,7 @@
 		};
 		37389EBF1EB2359A003A2DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EA045F081CE32DDE890DC0 /* Pods-Demon MediaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Demon MediaUITests/Info.plist";
@@ -475,6 +754,7 @@
 		};
 		37389EC01EB2359A003A2DAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3E108C61D6451B28B8C252 /* Pods-Demon MediaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Demon MediaUITests/Info.plist";
@@ -505,6 +785,7 @@
 				37389EBA1EB2359A003A2DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37389EBB1EB2359A003A2DAE /* Build configuration list for PBXNativeTarget "Demon MediaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +794,7 @@
 				37389EBD1EB2359A003A2DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37389EBE1EB2359A003A2DAE /* Build configuration list for PBXNativeTarget "Demon MediaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +803,7 @@
 				37389EC01EB2359A003A2DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

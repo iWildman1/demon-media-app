@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,40 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vvj-I4-9RS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Demon Media Icon White" translatesAutoresizingMaskIntoConstraints="NO" id="N8o-aH-k4p">
+                                        <rect key="frame" x="8" y="238" width="359" height="191"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="359" id="JC4-sQ-gXu"/>
+                                            <constraint firstAttribute="height" constant="191" id="TBy-tP-Ekc"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="N8o-aH-k4p" firstAttribute="centerY" secondItem="vvj-I4-9RS" secondAttribute="centerY" id="Z5i-rN-8Cc"/>
+                                    <constraint firstItem="N8o-aH-k4p" firstAttribute="centerX" secondItem="vvj-I4-9RS" secondAttribute="centerX" id="kxh-DO-Le1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vvj-I4-9RS" secondAttribute="trailing" id="6D0-f4-3tX"/>
+                            <constraint firstItem="vvj-I4-9RS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Hz4-2s-6DM"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="vvj-I4-9RS" secondAttribute="bottom" id="ObX-OJ-FIG"/>
+                            <constraint firstItem="vvj-I4-9RS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="aAH-Jg-4HU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Demon Media Icon White" width="1024" height="1062"/>
+    </resources>
 </document>
