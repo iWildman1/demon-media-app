@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Define helper constants for the application
 let DEMON_BASE_URL = "https://demon-media.co.uk/wp-json/wp/v2/"
 let DEMON_POSTS_URL = DEMON_BASE_URL + "posts/"
 let DEMON_CATEGORY_META_URL = DEMON_BASE_URL + "categories/"

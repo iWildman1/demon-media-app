@@ -13,6 +13,7 @@ import SwiftyJSON
 
 class Post {
     
+    //Setup constants as private. Will only be accessible via init or getters
     private let _title : String!
     private let _image : UIImage!
     private let _excerpt : String!
@@ -20,6 +21,8 @@ class Post {
     private let _datePosted : Date!
     private let _category : String!
     private let _author : String!
+    
+    //Setup getters
     
     func title() -> String {
         return _title
@@ -54,7 +57,7 @@ class Post {
         return _author
     }
     
-    
+    //Init function called when instantiation happens
     init(title : String, image : UIImage, excerpt: String, content : NSMutableAttributedString, datePosted : Date, category: String, author: String) {
         _title = title
         _image = image
